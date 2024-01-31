@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" spacing="100.0" stylesheets="@../style/main.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.alex.licenta.controllers.Navigation">
+    <Button mnemonicParsing="false" onAction="#loadHome" prefHeight="50.0" prefWidth="100.0" styleClass="button-black" stylesheets="@../style/main.css" text="Home" textFill="RED" HBox.hgrow="ALWAYS">
+        <HBox.margin>
+          <Insets />
+        </HBox.margin>
+    </Button>
+    <Button mnemonicParsing="false" onAction="#myProfile" prefHeight="50.0" prefWidth="100.0" styleClass="button-black" stylesheets="@../style/main.css" text="My Profile" HBox.hgrow="ALWAYS" />
+   <Button mnemonicParsing="false" onAction="#leaderboard" styleClass="button-black" stylesheets="@../style/main.css" text="Leaderboard" />
+   <Button mnemonicParsing="false" onAction="#help" styleClass="button-black" stylesheets="@../style/main.css" text="Help" />
+    <Button mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="100.0" styleClass="button-black" stylesheets="@../style/main.css" text="Logout" HBox.hgrow="ALWAYS" />
+   <padding>
+      <Insets top="10.0" />
+   </padding>
+</HBox>

@@ -1,0 +1,213 @@
+
+@font-face {
+    font-family: Flamenco;
+    src: url("Flamenco-Regular.ttf");
+}
+
+.gunmetal-background-color {
+    -fx-background: #30343F;
+}
+
+.vista-blue-background-color {
+    -fx-background: #809BCE;
+}
+
+.gray-background-color{
+    -fx-background: #295BAE;
+}
+
+.background-scroll-pane {
+    -fx-background: #30343F;
+    -fx-background-radius: 15;
+}
+
+.background-vbox-scroll-pane {
+    -fx-background: #30343F;
+    -fx-background-radius: 15;
+}
+
+.background-single-quest {
+    -fx-background-color: #B8E0D2;
+    -fx-background: #B8E0D2;
+    -fx-background-radius: 15;
+}
+
+.background-badge {
+    -fx-background-color: #153B50;
+    -fx-background: #153B50;
+    -fx-background-radius: 15;
+}
+
+
+.title, .subtitle {
+    -fx-text-fill: #95B8D1;
+    -fx-font-family: "Flamenco";
+    -fx-font-weight: 400;
+    -fx-font-size: 100px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.specialtitle {
+    -fx-text-fill: #30343F;
+    -fx-font-family: "Flamenco";
+    -fx-font-weight: 400;
+    -fx-font-size: 100px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.subtitle {
+    -fx-font-size: 64px;
+}
+
+.button-blue, .button-quest, .button-black, .button-accept, .button-welcome, .button-create-quest {
+    -fx-font-family: "Flamenco";
+    -fx-font-weight: 400;
+    -fx-background-radius: 15;
+}
+
+.button-blue, .button-welcome, .button-create-quest {
+    -fx-background-color: #809BCE;
+    -fx-font-color: #30343F;
+}
+
+.button-black, .button-quest {
+    -fx-background-color: #30343F;
+    -fx-text-fill: #D6EADF;
+    -fx-text-alignment: center;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 200px;
+    -fx-font-size: 28px;
+}
+
+.button-quest, .button-create-quest {
+    -fx-pref-width: 250px;
+}
+
+.button-create-quest {
+    -fx-pref-width: 250px;
+    -fx-font-size: 28px;
+}
+
+.button-blue {
+    -fx-pref-height: 30px;
+    -fx-pref-width: 150px;
+    -fx-font-size: 25px;
+}
+
+.button-welcome {
+    -fx-pref-height: 75px;
+    -fx-pref-width: 300px;
+    -fx-font-size: 40px;
+}
+
+.button-accept {
+    -fx-background-color: #30343F;
+    -fx-text-fill: #D6EADF;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 100px;
+    -fx-font-size: 15px;
+}
+
+.label-login-register, .label-welcome, .label-quest, .label-info, .label-badge, .label-leaderboard {
+    -fx-font-family: "Flamenco";
+    -fx-font-weight: 400;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.label-login-register {
+    -fx-text-fill: #B8E0D2;
+    -fx-font-size: 28px;
+}
+
+.label-welcome {
+    -fx-text-fill: #809BCE;
+    -fx-font-size: 32px;
+}
+
+.label-info {
+    -fx-text-fill: #B8E0D2;
+    -fx-font-size: 32px;
+    -fx-background-color: #30343F;
+    -fx-background-radius: 15;
+}
+
+.label-quest {
+    -fx-text-fill: #153B50;
+    -fx-font-size: 24px;
+}
+
+.label-leaderboard {
+    -fx-text-fill: #153B50;
+    -fx-font-size: 32px;
+    -fx-font-weight: 800;
+}
+
+.label-badge {
+    -fx-text-fill: #B8E0D2;
+    -fx-font-size: 24px;
+}
+
+.label-create-quest {
+    -fx-text-fill: #B8E0D2;
+    -fx-font-size: 28px;
+}
+
+.textField-normal, .textField-create-quest {
+    -fx-font-size: 20px;
+    -fx-font-weight: 400;
+    -fx-font-family: "Flamenco";
+    -fx-text-fill: #30343F;
+    -fx-prompt-text-fill: #30343F;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-background-color: #D6EADF;
+    -fx-background-radius: 15;
+}
+
+.textField-create-quest {
+    -fx-text-fill: #B8E0D2;
+    -fx-prompt-text-fill: #B8E0D2;
+    -fx-background-color: #153B50;
+}
+
+.textArea-normal {
+    -fx-font-size: 20px;
+    -fx-font-weight: 400;
+    -fx-font-family: "Flamenco";
+    -fx-text-fill: #B8E0D2;
+    -fx-prompt-text-fill: #B8E0D2;
+    -fx-prompt-text-position: center;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-background-color: #153B50;
+    -fx-background-radius: 15;
+    -fx-wrap-text: true;
+}
+
+.textArea-normal .content {
+    -fx-background-color: #153B50;
+    -fx-background-radius: 15;
+    -fx-prompt-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+.notifications {
+    -fx-background: #30343F;
+    -fx-text-fill: #D6EADF;
+    -fx-font-family: "Flamenco";
+    -fx-font-weight: 400;
+    -fx-font-size: 20px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.notifications .button {
+    -fx-background-color: #809BCE;
+    -fx-font-color: #30343F;
+    -fx-pref-height: 15px;
+    -fx-pref-width: 100px;
+    -fx-font-size: 24px;
+}
